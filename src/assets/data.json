@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "image": "spiderman_post.jpg",
+    "text": "Who's excited for spiderman Remastered 😍 ?!",
+    "likes": 120,
+    "liked": true,
+    "user": {
+      "username": "Spiderman",
+      "avatar": "spiderman.jpg",
+      "quote": "Amazing 🕷"
+    }
+  },
+  {
+    "id": 2,
+    "image": null,
+    "text": "Wakanda's technology developed entirely independently of that of the rest of the world due to them remaining in isolation. The creation of methodologies of design are so different it's very difficult to use with outside technology.",
+    "likes": 250,
+    "liked": false,
+    "user": {
+      "username": "Black Panter",
+      "avatar": "black_panter.jpg",
+      "quote": "The king of Wakanda"
+    }
+  }
+]

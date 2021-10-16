@@ -1,0 +1,17 @@
+.post-card {
+  max-width: 400px;
+  margin-bottom: 2em;
+}
+
+.post-header-image {
+  background-size: cover;
+}
+
+.content {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+}
