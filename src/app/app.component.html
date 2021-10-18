@@ -2,29 +2,5 @@
   <span>Marvel Posts</span>
 </mat-toolbar>
 <main class="content">
-  <mat-card class="post-card" *ngFor="let post of posts$ | async">
-    <mat-card-header>
-      <div
-        mat-card-avatar
-        class="post-header-image"
-        [ngStyle]="{ 'background-image': getAvatar(post.user.avatar) }"
-      ></div>
-      <mat-card-title>{{post.user.username}}</mat-card-title>
-      <mat-card-subtitle>{{post.user.quote}}</mat-card-subtitle>
-    </mat-card-header>
-    <img *ngIf="post.image"
-      mat-card-image
-      [src]="getPostImage(post.image)"
-      alt="Photo of {{post.user.username}}"
-    />
-    <mat-card-content>
-      <p align="justify">{{post.text}}</p>
-    </mat-card-content>
-    <mat-card-actions>
-      <button mat-icon-button [color]="post.liked ? 'primary' : 'accent'" (click)="onToggleLike(post)">
-        <mat-icon>favorite</mat-icon>
-      </button>
-      <span>{{post.likes}}</span>
-    </mat-card-actions>
-  </mat-card>
+  <app-posts></app-posts>
 </main>
